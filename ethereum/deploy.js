@@ -5,7 +5,7 @@ const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
   'liar twin exist relief file sun poverty front solution access air desert',
-  'https://goerli.infura.io/v3/b889c245352540118f8d78b8baa934e8'
+  'https://sepolia.infura.io/v3/3079fffeebbe48168b78aeb88c675b3f'
 );
 const web3 = new Web3(provider);
 
