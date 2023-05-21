@@ -1,6 +1,7 @@
 import React from "react";
 import Header from'./Header'
 import Head from 'next/head'
+import Script from 'next/script';
 import { Container } from "semantic-ui-react";
      
 const Layout = (props) => {
@@ -13,10 +14,10 @@ const Layout = (props) => {
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
   />
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>
+  <Script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></Script>
 
   
-  <script src="like_button.js"></script>
+  <Script src="like_button.js"></Script>
   </Head>
             <Header/>
         {props.children}

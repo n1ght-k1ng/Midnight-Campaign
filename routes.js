@@ -3,5 +3,5 @@ const routes = require('next-routes')();
 routes
 .add('/campaigns/new','/campaigns/new')
 .add('/campaigns/:address','/campaigns/show')  // ':' indicates that the part is dynamic
-
+.add('/campaigns/:address/requests','/campaigns/requests/index')
 module.exports = routes;
